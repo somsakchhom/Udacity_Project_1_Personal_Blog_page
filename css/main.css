@@ -1,3 +1,29 @@
+* {
+  border: 1px solid red !important;
+}
 .home {
-    color: red;
+  display: grid;
+  grid-template-columns: 50em;
+  grid-template-rows: 20em 75em 75em 75em 30em;
+  grid-template-areas:
+    "hd"
+    "hero"
+    "main"
+    "prev-posts"
+    "footer";
+}
+.header {
+  grid-area: hd;
+}
+.hero {
+  grid-area: hero;
+}
+.main {
+  grid-area: main;
+}
+.previous-posts {
+  grid-area: prev-posts;
+}
+.footer {
+  grid-area: footer;
 }
