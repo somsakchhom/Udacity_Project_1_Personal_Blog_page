@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  /* border: 1px solid red !important; */
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #333;
+  color: #fffbf4;
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+  color: #fffbf4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lora', serif;
+  margin-left: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  
+}
+/* header */
+.header > h6 {
+  text-align: center;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* phone icon */
+.fa-phone-square-alt {
+  font-size: 40px;
+}
+
+.header-inner-name {
+  margin: 20px 40px;
+}
+
+.header-inner-name > h1{
+  text-align: center;
+  letter-spacing: .3rem;
+  line-height: normal;
+}
+
+.header-inner-name > h6{
+  text-align: center;
+  letter-spacing: .2rem;
+  font-weight: 100;
+}
+
+/* hamburger menu icon */
+.fa-bars {
+  font-size: 30px;
+}
+
+/* Welcome Image */
+.hero{
+  /* background: url(https://source.unsplash.com/fv2jr89ajTE); */
+  background: linear-gradient(to bottom, #00000088 30%, #ffffff44 100%),
+  url(https://source.unsplash.com/fv2jr89ajTE) center / cover ;
+  height: 40vh;
+}
+
+.main-post {
+}
+
+.previous-posts {
+  
+}
+
+/* footer */
+footer {
+  background-color: #333;
+  color: #fffbf4;
+}
